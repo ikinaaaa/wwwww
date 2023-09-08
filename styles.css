@@ -41,7 +41,6 @@ mark{
     grid-template-areas: 
     "nav"
     "intro";
-    background-image: url(images/fine-bg.mp4);
     background-image: url(images/fine-bg.png);
     background-color: black;
     font-family: 'Arch';
