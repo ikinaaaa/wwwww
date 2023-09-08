@@ -1,0 +1,187 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gang';
+    scrollbar-color: #3F3129;
+    background-size: cover;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Arch';
+   }
+   @font-face {
+    font-family: "Arch";
+    src: url("https://db.onlinewebfonts.com/t/26afb49b8b7dda2c10686589d6fc7b55.eot");
+    src: url("https://db.onlinewebfonts.com/t/26afb49b8b7dda2c10686589d6fc7b55.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/26afb49b8b7dda2c10686589d6fc7b55.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/26afb49b8b7dda2c10686589d6fc7b55.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/26afb49b8b7dda2c10686589d6fc7b55.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/26afb49b8b7dda2c10686589d6fc7b55.svg#Architype Aubette W90")format("svg");
+}
+mark{
+    background-color: var(--brown);
+}
+:root{
+    --white:#E2E2E2;
+    --black:#373334;
+    --golden:#E4B971;
+    --red:#AF220E;
+    --brown:#3F3129;
+    --light:#B8885F;
+}
+.container{
+    background-image: url(images/shibi-bg.png);
+    background-position: center;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    display: grid;  
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.175fr 0.825fr;
+    grid-template-areas: 
+    "nav"
+    "intro";
+    background-image: url(images/fine-bg.mov);
+    font-family: 'Arch';
+    text-shadow: black;
+}
+nav{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0%;
+    grid-area: nav;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+.nav-element{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 15%;
+}
+nav a{
+    text-decoration: none;
+}
+nav p{
+    font-weight: 600;
+    font-size: 180%;
+    color: var(--white);
+}
+nav p:hover{
+color: var(--light);
+}
+.logo{
+    width: 6%;
+    height: 60%;
+}
+.logo-img{
+    width: 100%;
+    height: 100%;
+}
+
+
+#intro{
+grid-area: intro;
+}
+.intro-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 5%;
+}
+.title-container1{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: var(--white);
+    font-size: 500%;
+}
+.text1{
+}
+.text1 p{
+    color: var(--white);
+    font-size: 250%;
+}
+.buttons-contract-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    height: 30%;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40%;
+    gap: 10%;
+}
+.btn1, .btn2{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    background-color: black;
+    border: none;
+    font-size: 150%;
+    width: 30%;
+    height: 70%;
+}
+.btn1:hover{
+    width: 31%;
+    height: 71%;
+    color: var(--light);
+}
+.btn2:hover{
+    width: 31%;
+    height: 71%;
+    color: var(--light);
+}
+.contract{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    height: 30%;
+}
+.contract-text{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 100%;
+    font-size: 100%;
+    color: var(--white);
+}
+.contract-btn{
+    width: 7%;
+    height: 100%;
+}
+.contract-btn-img{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+background-image:   url(images/contract-btn.png);
+background-size: 100%;
+background-position: center;
+background-repeat: no-repeat;
+border: none;
+background-color: transparent;
+}
+.contract-btn-img:hover{
+    background-image:   url(images/contract-btn.png);
+}
+h2{
+    font-size: 200%;
+    color: var(--white);
+}
